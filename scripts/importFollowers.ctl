@@ -5,7 +5,7 @@ APPEND into table FOLLOWERS
 TRAILING NULLCOLS
 (
 	id		integer external,
-	date		char terminated by ',',		
+	tweet_date	char terminated by ',',		
 	screen_name	char terminated by ',',
 	follower	char terminated by ',' 
 )
