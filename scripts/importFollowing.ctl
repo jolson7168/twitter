@@ -1,6 +1,6 @@
 OPTIONS (SKIP=1,ERRORS = 100)
 load data
-infile '../data/following.csv'
+infile '../data/RawFollowing.csv'
 APPEND into table FOLLOWING
 TRAILING NULLCOLS
 (
