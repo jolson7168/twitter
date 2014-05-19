@@ -8,5 +8,5 @@ TRAILING NULLCOLS
 	tweet_date	char terminated by ',',		
 	screen_name	char terminated by ',',
 	followingId	integer external terminated by ',',
-	following	char
+	following	char terminated by '' 
 )
