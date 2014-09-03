@@ -1,0 +1,11 @@
+outputFile='/tmp/output.txt'
+queueName='TQ1'
+region='us-east-1'
+aws_access_key_id=''
+aws_secret_access_key=''
+access_token1=''
+access_token2=''
+oauth1=''
+oauth2=''
+
+
