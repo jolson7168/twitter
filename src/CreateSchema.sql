@@ -14,3 +14,16 @@ create table following
     followingId integer,	
     following varchar2(50)
 )
+
+create table rawusers (
+    id          integer,
+    onDate      date,
+    username    varchar2(100),
+    followingId integer
+)
+
+create table users (
+    userId  integer,
+    userName  varchar2(200)
+)
+
