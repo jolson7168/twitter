@@ -1,12 +1,11 @@
 OPTIONS (SKIP=1,ERRORS = 100)
 load data
-infile '../data/RawFollowing.csv'
-APPEND into table FOLLOWING
+infile '/home/oracle/git/twitter/data/output.txt'
+APPEND into table rawusers 
 TRAILING NULLCOLS
 (
 	id		integer external terminated by ',',
-	tweet_date	char terminated by ',',		
-	screen_name	char terminated by ',',
-	followingId	integer external terminated by ',',
-	following	char terminated by '' 
+	ondate		date 'YYYY-MM-DD HH24:MI:SS' terminated by ',', 		
+	username	char terminated by ',',
+	followingId	integer external terminated by ','
 )
